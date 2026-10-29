@@ -1,0 +1,62 @@
+*,*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  scroll-margin-top: 4rem; /*So the navbar wouldn't cover it*/
+}
+
+body {
+    font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+    line-height: 1.7;
+}
+
+.main-wrapper {
+    padding: 0 4rem;
+    background-color: #F3F5F8;
+}
+
+
+/*<<<==============================================>>>*/
+/*<<<=================== header ===================>>>*/
+/*<<<==============================================>>>*/
+
+.header {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  
+  padding: .75rem 1.5rem;
+  background-color: #FFF;
+  border: 1px solid #D9DFE6;
+  border-radius: 2rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.navbar-link {
+  color: #1A222C;
+  /* font-weight: bold; */
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  text-shadow: 0 0 0.35px currentColor;
+}
+
+.logo {
+  color: #D35400;
+  font-weight: bold;
+  /* temp logo*/
+}

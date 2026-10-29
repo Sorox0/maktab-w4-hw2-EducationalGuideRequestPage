@@ -1,0 +1,40 @@
+
+:root {
+  /* Typography */
+  --color-text: #1A222C;
+  --color-text-muted: #7E8893;
+  --color-brand: #A04000;
+
+  /* Backgrounds */
+  --color-background: #F3F5F8;
+  --color-surface: #FFFFFF;
+  --color-surface-muted: #EEF1F5;
+
+  /* Borders and shadows */
+  --color-border: #D3D9E2;
+  --color-border-nav: #D9DFE6;
+  --color-shadow: #E3E8ED;
+
+  /* Accents */
+  --color-accent: #D35400;
+  --color-notice: #FFE8D6;
+
+  /* Cover */
+  --color-cover-navy: #0F2438;
+  --color-cover-blue: #1B4267;
+  --color-cover-slate: #504F57;
+  --color-cover-orange: #C85408;
+
+  --gradient-page:
+    linear-gradient(110deg, #F4F6F9, #EEF1F5, #E1E9F3);
+
+  --gradient-cover:
+    linear-gradient(
+      135deg,
+      #1B4267 0%,
+      #345B7F 32%,
+      #504F57 63%,
+      #95522A 82%,
+      #C85408 100%
+    );
+}
