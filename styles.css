@@ -71,6 +71,7 @@ p {
   background-color: #FFF;
   border: 1px solid #D9DFE6;
   border-radius: 2rem;
+  box-shadow: 0px 0px 1rem .25rem #E3E8ED
 }
 
 .navbar {
@@ -143,6 +144,7 @@ p {
   
   border-right: 1rem solid #0F2438;
   border-radius: 1.25rem;
+  box-shadow: 0px 0px 1rem .25rem #E3E8ED
 }
 
 .title-circle {
@@ -206,6 +208,7 @@ p {
   background-color: #FFF;
   border: 1px solid #D3D9E2;
   border-radius: .75rem;
+  box-shadow: 0px 0px 1rem .25rem #E3E8ED
 }
 
 .spec-title {
@@ -249,6 +252,7 @@ p {
   padding: .5rem;
   background-color: #EEF1F5;
   border-radius: .75rem;
+  box-shadow: 0px 0px 1rem .25rem #E3E8ED
 }
 
 .toc-tag {
@@ -284,6 +288,7 @@ p {
   background-color: #FFF;
   border: 1px solid #D3D9E2;
   border-radius: 1rem;
+  box-shadow: 0px 0px 1rem .25rem #E3E8ED
 }
 
 .chapter-counter {
@@ -324,6 +329,8 @@ p {
   max-width: 720px;
   background-color: #FFF;
   border-radius: 1rem;
+  box-shadow: 0px 0px 1rem .25rem #E3E8ED
+;
 }
 
 .form {
