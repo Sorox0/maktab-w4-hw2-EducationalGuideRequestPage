@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="header">
+        <div class="logo"><span>راهنماخانه<span></div>
+        <nav class="navbar">
+            <a href="#chapter-section" class="navbar-link">فصل‌ها</a>
+            <a href="#form-section" class="navbar-link">درخواست راهنما</a>
+        </nav>
+    </header>
+    
     <div class="main-wrapper">
-        <header class="header">
-            <div class="logo"><span>راهنماخانه<span></div>
-            <nav class="navbar">
-                <a href="#chapter-section" class="navbar-link">فصل‌ها</a><a href="#form" class="navbar-link">درخواست راهنما</a>
-            </nav>
-        </header>
         <main class="main">
             <section class="hero">
                 <div class="title">
@@ -42,7 +44,7 @@
                 </div>
             </section>
 
-            <section class="chapter-section">
+            <section class="chapter-section" id="chapter-section">
                 <h2 class="section-heading">فصل ها</h2>
                 <div class="toc">
                     <div class="toc-card">
@@ -90,7 +92,53 @@
     </div>
 
     <div class="form-wrapper">
-        
+        <section class="form-section" id="form-section">
+            <h2 class="section-heading">درخواست راهنما</h2>
+            <div class="notice">
+                <p>سطح آشنایی فقط برای شناخت مخاطب است؛ همهٰ سطح‌ها همین نسخه فارسی را درخواست می‌کنند.</p>
+            </div>
+
+            <form action="GET" class="form">
+
+                <div class="form-group">
+                    <label for="name" class="form-label">نام <span class="form-optional">(اختیاری)</span></label>
+                    <input type="text" class="form-input" id="name" name="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">ایمیل <span class="form-required">(اجباری)</span></label>
+                    <input type="email" class="form-input" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="level" class="form-label">سطح آشنایی <span class="form-required">(اجباری)</span></label>
+                    <select name="level" id="level" class="form-input form-select">
+                        <option class="level-option" value="" selected disabled>سطح آشنایی را انتخاب کنید</option>
+                        <option class="level-option" value="beginner">beginner: تازه شروع کرده‌ام</option>
+                        <option class="level-option" value="HTML/CSS">HTML/CC مقدماتی را دیده‌ام</option>
+                        <option class="level-option" value="review">review: برای مرور</option>
+                    </select>
+                </div>
+
+                <div class="form-email-request-section">
+                    <input type="radio" id="email-request" name="email-request" required>
+                    <label for="email-request" class="form-label">مایلم راهنما را در ایمیل دریافت کنم <span class="form-required">(اجباری)</span></label>
+                </div>
+                
+                <input class="form-submit" type="submit" value="ارسال درخواست آزمایشی">
+            </form>
+
+            <hr class="hr">
+
+            <div class="contact">
+                <h4 class:="section-heading">تماس</h4>
+                <a href="GOTO:example@mail.com">example@mail.com</a>
+            </div>
+        </section>
     </div>
+
+    <footer class="footer">
+        <p>راهنماخانه— نسخه آموزشی</p>
+    </footer>
 </body>
 </html>
