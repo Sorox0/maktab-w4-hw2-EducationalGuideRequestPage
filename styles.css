@@ -115,6 +115,8 @@ p {
   gap: 2rem;
 }
 
+/*title section completely changed by ai: will fix later*/
+
 .title {
   display: flex;
   flex-direction: column;
@@ -126,7 +128,7 @@ p {
   /* align-self: start; */
   /* isolation: isolate; */
   overflow: hidden;
-  /* aspect-ratio: 1.3 / 1; */
+  /* aspect-ratio: 1.3 / 1; */ /*Breaks Responsive; definitely NOT keeping this*/
 
   padding: 1.5rem;
   color: #FFF;
@@ -390,4 +392,42 @@ p {
 
   padding: 2rem 4rem;
   background-color: #eef1f5;
+}
+
+/*<<<====================================================>>>*/
+/*<<<=================== Responsive =====================>>>*/
+/*<<<====================================================>>>*/
+
+@media (max-width:768px) {
+  .header {
+    padding: 1rem .5rem;
+    margin: 0 1rem;
+    gap: 0;
+  }
+  .main-wrapper, .form-wrapper {
+    padding:1rem 1rem 2.34rem ;
+  }
+
+  .form-section{
+    padding: 1rem;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .specs {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .toc {
+    grid-template-columns: 1fr;
+  }
+
+  .chapters {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:360px) {
+
 }
